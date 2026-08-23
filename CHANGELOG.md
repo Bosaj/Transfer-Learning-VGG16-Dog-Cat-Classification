@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `requirements.txt` pinning TensorFlow/NumPy/Matplotlib.
 - GitHub Actions CI workflow validating notebook integrity and syntax.
 - Rewritten `README.md` with tech stack, structure, and getting-started instructions.
+- `app.py`: a live, deployable Streamlit demo. The notebook's fine-tuned weights and training images aren't in this repo (too large for git), so this uses the full ImageNet-pretrained VGG16 directly and maps its prediction to Dog/Cat via ImageNet's own class index ranges (151-268 for dog breeds, 281-285 for domestic cats - verified against Keras's `imagenet_class_index.json`). A different technique from the notebook's fine-tuned head, but genuine transfer learning requiring no training data, documented as such in the README.
 
 ## [1.0.0] - 2026-08-23
 

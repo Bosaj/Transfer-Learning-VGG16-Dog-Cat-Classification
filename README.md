@@ -12,6 +12,17 @@ Binary image classification (dog vs. cat) built on top of a VGG16 backbone pre-t
 
 This project demonstrates transfer learning by taking a VGG16 model pre-trained on ImageNet, freezing its convolutional base, and attaching a small classification head to distinguish images of dogs from cats. It was built as a hands-on machine learning exercise in applying pre-trained CNNs to a new binary classification task.
 
+## ⚡ Try it now — live demo (`app.py`)
+
+The notebook's fine-tuned classifier (91.6% validation accuracy) needs its trained weights and the original dogs-vs-cats training images — neither is included in this repo (both too large for git). Rather than leave the project undemonstrable, `app.py` provides a genuinely different but real transfer-learning approach: it loads the **full ImageNet-pretrained VGG16** (`include_top=True`, no fine-tuning needed) and maps its prediction to Dog/Cat using ImageNet's own class layout — dog breeds occupy indices 151-268 and domestic cat breeds occupy indices 281-285 (both verified directly against Keras's `imagenet_class_index.json`). Upload any photo and it classifies it live, with the raw top-5 ImageNet predictions shown for transparency.
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+Deployable at [share.streamlit.io](https://share.streamlit.io) (point it at `app.py`) — no GPU or training data required, since it only runs inference on frozen ImageNet weights.
+
 ## Contents
 
 - [`VGG16.ipynb`](VGG16.ipynb) — the full pipeline:
@@ -76,7 +87,8 @@ The CI intentionally does **not** run model training — that requires the exter
 
 ```
 Transfer-Learning-VGG16-Dog-Cat-Classification/
-├── VGG16.ipynb              # Main notebook: model, training, evaluation, inference
+├── app.py                   # Live demo: ImageNet-VGG16 dog/cat classifier
+├── VGG16.ipynb              # Main notebook: fine-tuned model, training, evaluation
 ├── Transfer Learning.pptx   # Presentation slides
 ├── Transfer Learning.mp4    # Video walkthrough
 ├── requirements.txt

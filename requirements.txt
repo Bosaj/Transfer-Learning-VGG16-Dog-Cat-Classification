@@ -1,3 +1,5 @@
-tensorflow>=2.15,<2.19
-numpy>=1.23,<2.2
+tensorflow-cpu>=2.15,<2.22
+numpy>=1.23,<2.6
 matplotlib>=3.6,<3.10
+streamlit>=1.30,<2.0
+pillow>=10.0,<12.0
