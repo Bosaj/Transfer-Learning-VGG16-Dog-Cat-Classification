@@ -1,4 +1,10 @@
-# Transfer Learning VGG16 — Dog vs. Cat Classification
+# Transfer-Learning-VGG16-Dog-Cat-Classification
+
+![CI Pipeline](https://github.com/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification/actions/workflows/ci_qa_monitoring.yml/badge.svg)
+[![GitHub Wiki](https://img.shields.io/badge/Documentation-GitHub%20Wiki-blue.svg)](https://github.com/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification/wiki)
+[![Quality Gate](https://img.shields.io/badge/Quality%20Gate-Passed-brightgreen.svg)](docs/MONITORING_AND_QA.md)
+
+---
 
 Binary image classification (dog vs. cat) built on top of a VGG16 backbone pre-trained on ImageNet, using Keras/TensorFlow transfer learning.
 
@@ -115,4 +121,12 @@ This project includes a standardized 4-Pillar Observability and QA framework:
 - **Health Controlling & Evaluation**: Liveness/readiness controllers in `monitoring/health.py` and evaluation harness in `scripts/eval_harness.py`.
 - **QA & Testing**: Automated Pytest/Vitest integration and CI workflows via `.github/workflows/ci_qa_monitoring.yml`.
 
-For complete instructions, architecture details, and commands, see [docs/MONITORING_AND_QA.md](file:///C:\Users\ROG FLOW\Desktop\Projects\Github_Projects\Transfer-Learning-VGG16-Dog-Cat-Classification\docs\MONITORING_AND_QA.md).
+For complete instructions, architecture details, and commands, see [docs/MONITORING_AND_QA.md](docs/MONITORING_AND_QA.md).
+
+---
+
+## 📚 Documentation & GitHub Wiki
+- 📖 **Official Project Wiki**: [https://github.com/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification/wiki](https://github.com/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification/wiki)
+- 🔍 **Architecture & Design**: [https://github.com/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification/wiki/Architecture-and-Design](https://github.com/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification/wiki/Architecture-and-Design)
+- 🚀 **Getting Started Guide**: [https://github.com/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification/wiki/Getting-Started](https://github.com/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification/wiki/Getting-Started)
+- 📊 **Monitoring & Observability**: [docs/MONITORING_AND_QA.md](docs/MONITORING_AND_QA.md)
