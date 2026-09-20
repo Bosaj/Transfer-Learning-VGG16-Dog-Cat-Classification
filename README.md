@@ -7,6 +7,10 @@
   <img src="assets/social_preview.jpg" alt="Transfer-Learning-VGG16-Dog-Cat-Classification Banner" width="100%">
 </p>
 
+<p align="center">
+  <a href="https://huggingface.co/spaces/bosaj/vgg16-transfer-learning-classifier" target="_blank"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Live%20Visualizer-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Live Demo" /></a>
+</p>
+
 ![CI Pipeline](https://github.com/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification/actions/workflows/ci_qa_monitoring.yml/badge.svg)
 [![GitHub Wiki](https://img.shields.io/badge/Documentation-GitHub%20Wiki-blue.svg)](https://github.com/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification/wiki)
 [![Quality Gate](https://img.shields.io/badge/Quality%20Gate-Passed-brightgreen.svg)](docs/MONITORING_AND_QA.md)
