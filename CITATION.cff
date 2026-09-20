@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software or research code, please cite it as below."
+authors:
+  - family-names: "EL HADJI"
+    given-names: "Oussama"
+    orcid: ""
+title: "Transfer Learning with VGG16 Deep Convolutional Network"
+version: 1.0.0
+date-released: 2026-09-20
+url: "https://github.com/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification"
+abstract: "Deep transfer learning architecture using VGG16 for binary image classification."
+keywords:
+  - machine-learning
+  - deep-learning
+  - data-science
+  - python
+license: MIT
