@@ -1,5 +1,8 @@
 # Transfer-Learning-VGG16-Dog-Cat-Classification
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification) [![GitHub release](https://img.shields.io/github/v/release/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification?color=blue&label=release)](https://github.com/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification/releases) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+
+
 <p align="center">
   <img src="assets/social_preview.jpg" alt="Transfer-Learning-VGG16-Dog-Cat-Classification Banner" width="100%">
 </p>
