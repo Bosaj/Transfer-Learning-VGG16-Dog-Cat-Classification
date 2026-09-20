@@ -123,9 +123,10 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 Distributed under the MIT License — see [LICENSE](LICENSE).
 
-## Author
+## 👥 Project Engineering Team
 
-**Oussama EL HADJI** — [github.com/Bosaj](https://github.com/Bosaj)
+- **Oussama EL HADJI** — Deep Learning Architecture & Interactive Visualizer ([GitHub @Bosaj](https://github.com/Bosaj))
+- **Abdellatif CHAKOR** — Feature Extraction, Data Augmentation & Model Optimization ([GitHub @chakorabdellatif](https://github.com/chakorabdellatif))
 
 
 ## 📊 Monitoring, Controlling, Evaluation & QA
