@@ -19,7 +19,7 @@
 
 Binary image classification (dog vs. cat) built on top of a VGG16 backbone pre-trained on ImageNet, using Keras/TensorFlow transfer learning.
 
-[![CI](https://github.com/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification/actions/workflows/ci.yml/badge.svg)](https://github.com/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification/actions/workflows/ci.yml)
+[](https://github.com/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification/actions/workflows/ci.yml)
 <p align="center">
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification/blob/main/VGG16.ipynb)
 </p>
@@ -52,8 +52,8 @@ Deployable at [share.streamlit.io](https://share.streamlit.io) (point it at `app
   4. Augment training images (`ImageDataGenerator`: rotation, shift, shear, zoom, horizontal flip) and rescale validation images.
   5. Train for 10 epochs on a local `trainset`/`validset` directory structure (dogs-vs-cats style dataset, not included in this repo).
   6. Evaluate loss/accuracy on the validation set and run single-image predictions with a helper `predict()` function.
-- [`Transfer Learning.pptx`](<Transfer Learning.pptx>) — presentation slides summarizing the approach and results.
-- [`Transfer Learning.mp4`](<Transfer Learning.mp4>) — video walkthrough.
+- [Transfer Learning Presentation (PPTX)](Transfer%20Learning.pptx) — presentation slides summarizing the approach and results.
+- [Transfer Learning Video Demo (MP4)](Transfer%20Learning.mp4) — video walkthrough recording.
 
 ### Results
 
