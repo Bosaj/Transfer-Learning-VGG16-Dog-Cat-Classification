@@ -17,12 +17,15 @@ already-learned ImageNet features and classifier with no additional
 training required - just a different (and honestly disclosed) strategy
 than fine-tuning a custom head on the missing dataset.
 """
-from pathlib import Path
 
 import numpy as np
 import streamlit as st
 from PIL import Image
-from tensorflow.keras.applications.vgg16 import VGG16, decode_predictions, preprocess_input
+from tensorflow.keras.applications.vgg16 import (
+    VGG16,
+    decode_predictions,
+    preprocess_input,
+)
 
 # ImageNet-1k class index ranges (standard ordering).
 DOG_INDEX_RANGE = range(151, 269)
@@ -40,7 +43,7 @@ def classify(model, image: Image.Image):
     arr = preprocess_input(arr)
 
     preds = model.predict(arr, verbose=0)[0]
-    top5_idx = np.argsort(preds)[::-1][:5]
+    np.argsort(preds)[::-1][:5]
 
     dog_score = float(sum(preds[i] for i in DOG_INDEX_RANGE))
     cat_score = float(sum(preds[i] for i in CAT_INDEX_RANGE))

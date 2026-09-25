@@ -5,6 +5,7 @@ Converts every .ipynb (excluding checkpoints) to HTML with nbconvert,
 preserving relative paths, and writes an index.html linking to them all.
 Does NOT re-execute notebooks - it renders whatever outputs are already saved.
 """
+
 import subprocess
 import sys
 from pathlib import Path
@@ -16,7 +17,8 @@ REPO_NAME = ROOT.name
 
 def find_notebooks():
     return sorted(
-        p for p in ROOT.rglob("*.ipynb")
+        p
+        for p in ROOT.rglob("*.ipynb")
         if ".ipynb_checkpoints" not in p.parts and "_site" not in p.parts
     )
 
@@ -27,8 +29,13 @@ def convert(nb_path: Path) -> Path:
     out_dir.mkdir(parents=True, exist_ok=True)
     subprocess.run(
         [
-            sys.executable, "-m", "nbconvert", "--to", "html",
-            "--output-dir", str(out_dir),
+            sys.executable,
+            "-m",
+            "nbconvert",
+            "--to",
+            "html",
+            "--output-dir",
+            str(out_dir),
             str(nb_path),
         ],
         check=True,
