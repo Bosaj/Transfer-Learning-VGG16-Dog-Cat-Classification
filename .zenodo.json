@@ -1,9 +1,9 @@
 {
   "title": "Transfer Learning Vgg16 Dog Cat Classification: Deep Convolutional Transfer Learning Classification Pipeline using Pretrained VGG16 Neural Network.",
-  "description": "<p>Deep Convolutional Transfer Learning Classification Pipeline using Pretrained VGG16 Neural Network.</p><p>Authored and maintained by Bosaj (El Hadji Oussous).</p>",
+  "description": "<p>Deep Convolutional Transfer Learning Classification Pipeline using Pretrained VGG16 Neural Network.</p><p>Authored and maintained by Bosaj (Oussama EL HADJI).</p>",
   "creators": [
     {
-      "name": "Oussous, El Hadji",
+      "name": "EL HADJI, Oussama",
       "affiliation": "Software Engineer & AI Researcher",
       "orcid": ""
     }
