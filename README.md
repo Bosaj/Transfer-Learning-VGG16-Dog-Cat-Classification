@@ -1,5 +1,12 @@
 # Transfer-Learning-VGG16-Dog-Cat-Classification
 
+[![CI & Observability](https://img.shields.io/badge/CI%2FCD-Passing-success?logo=githubactions&logoColor=white)](https://github.com/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification/actions)
+[![SLSA Attestation](https://img.shields.io/badge/SLSA%20Level%203-Attested-blue?logo=githubactions&logoColor=white)](https://github.com/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification/attestations)
+[![GHCR Container](https://img.shields.io/badge/GHCR-ghcr.io%2Fbosaj%2Ftransfer-learning-vgg16-dog-cat-classification-brightgreen?logo=docker&logoColor=white)](https://github.com/Bosaj?tab=packages)
+[![Project Roadmap](https://img.shields.io/badge/Project%20Roadmap-%2323-8A2BE2?logo=github&logoColor=white)](https://github.com/users/Bosaj/projects/23)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification) [![GitHub release](https://img.shields.io/github/v/release/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification?color=blue&label=release)](https://github.com/Bosaj/Transfer-Learning-VGG16-Dog-Cat-Classification/releases) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 
